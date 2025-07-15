@@ -444,15 +444,6 @@ td {
     padding: 3%
 }
 
-.vl__question {
-    background: #99d3e6;
-    border-radius: 100px;
-    color: #fff;
-    display: inline;
-    font-size: 12px;
-    padding: 2px 7.5px
-}
-
 .vl__popup {
     display: none;
     position: fixed;

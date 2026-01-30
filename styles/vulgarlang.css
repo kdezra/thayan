@@ -2,9 +2,15 @@
     font-family: Infernal;
     src: url("assets/Barazhad-Regular.otf") format("opentype");
 }
+@font-face {
+    font-family: Thorass;
+    src: url("assets/Olde-Thorass.otf") format("opentype");
+}
 
 :root {
-    --thay-font: Infernal, Barazhad, serif;
+    /* --thay-font: Infernal, Barazhad, serif; */
+
+    --thay-font: Thorass, 'Olde Thorass', serif;
     --sans-font: Arial, Helvetica, sans-serif;
 
     --white: #fff;

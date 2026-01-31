@@ -1,7 +1,7 @@
-@font-face {
-    font-family: Infernal;
+/* @font-face {
+    font-family: Abyssal;
     src: url("assets/Barazhad-Regular.otf") format("opentype");
-}
+} */
 @font-face {
     font-family: Thorass;
     src: url("assets/Olde-Thorass.otf") format("opentype");
@@ -9,13 +9,12 @@
 
 :root {
     /* --thay-font: Infernal, Barazhad, serif; */
-
     --thay-font: Thorass, 'Olde Thorass', serif;
     --sans-font: Arial, Helvetica, sans-serif;
 
     --white: #fff;
     --gray1: #ccc;
-    --gray2 : #848484;
+    --gray2: #848484;
     --gray3: #505050;
     --accent1: #db194a;
     --accent2: #3384b0;
@@ -41,24 +40,20 @@ td {
     vertical-align: center;
 }
 
-v-sp {
+v-sp, .v-sp td {
     color: var(--accent2);
     font-family: var(--thay-font);
-    transform: var(--scale);
-    font-weight: bold
+    font-weight: bold;
 }
 
-v-sp2 {
+v-sp2, .v-sp2 td {
     color: var(--gray3);
     font-family: var(--sans-font);
-    font-size: 16px;
-    transform: var(--scale);
-    font-weight: bold
+    font-weight: bold;
 }
 
-v-ipa {
+v-ipa, .v-ipa td {
     font-family: var(--sans-font);
-    transform: var(--scale);
 }
 
 v-pos {
@@ -84,13 +79,11 @@ td {
     border: 1px solid var(--gray1);
     border-radius: 10px;
     display: inline-block;
-    margin-bottom: 20px;
-    margin-right: 20px;
+    margin: 0 20px 20px 0;
     overflow: auto;
-    overflow-x: auto;
     padding: 20px;
     text-align: left;
-    vertical-align: top
+    vertical-align: top;
 }
 
 .vl__the-language-of {
